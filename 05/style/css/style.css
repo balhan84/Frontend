@@ -3,7 +3,7 @@
 }
 body {
   background-color: #f6f5f5;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, sans-serif;
 }
 
 .menu-container {
@@ -17,11 +17,13 @@ body {
 .btn-menu {
   border-style: none;
   background-color: #fff;
+  margin-left: 8px;
 }
 
 .menu-title {
   font-size: 32px;
   font-weight: 600;
+  margin-left: 2px;
 }
 
 .menu-search {
@@ -29,21 +31,20 @@ body {
   height: 44px;
   border-style: none;
   background-color: #efefef;
-  /* color: #999999;
-  font-size: 12px; */
   border-radius: 12px;
+  margin-left: 4px;
   margin-bottom: 20px;
 }
 
-/* .menu-items {
-  display: inline-block;
-} */
+.menu-items {
+  margin-left: 4px;
+}
 
 .menu-position {
-  border: 2px solid black;
   display: inline-block;
   font-size: 0;
   margin-right: 24px;
+  text-align: center;
 }
 
 .menu-position:hover .position-img {
@@ -54,11 +55,75 @@ body {
   height: 74px;
   border-radius: 12px;
   background-color: #efefef;
-  text-align: center;
+  padding: 18px 18px;
 }
 
 .menu-position-name {
   color: #c4c4c4;
   font-size: 16px;
   font-weight: 500;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.menu-position:hover .menu-position-name {
+  color: black;
+}
+
+.food-main-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #003049;
+  margin: 32px 0 26px 4px;
+}
+
+.menu-item-food {
+  display: inline-block;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  width: 316px;
+  height: 88px;
+  margin-bottom: 12px;
+}
+
+.name-item {
+  text-align: left;
+  margin: 22px 0;
+}
+
+.food-item-title {
+  font-size: 16px;
+  color: #003049;
+  font-weight: 400;
+  margin: 0 0 4px;
+}
+
+.food-item-id {
+  font-size: 14px;
+  color: #d62828;
+  font-weight: 500;
+  margin: 4px 0 0;
+}
+
+.img-food-big {
+  float: left;
+  margin: 6px 7px 14px 16px;
+}
+
+.img-food-kfc {
+  float: left;
+  margin: 16px 7px 17px 16px;
+}
+
+.img-food-fish {
+  float: left;
+  margin: 18px 7px 14px 10px;
+}
+
+.menu-item-food:hover {
+  background-color: #eae2b7;
+}
+
+.menu-item-food:last-child {
+  margin-bottom: 0;
 }
