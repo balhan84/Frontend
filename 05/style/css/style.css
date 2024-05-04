@@ -84,11 +84,13 @@ body {
   width: 316px;
   height: 88px;
   margin-bottom: 12px;
+  padding: 7px 7px 14px 16px;
 }
 
 .name-item {
+  display: inline-block;
   text-align: left;
-  margin: 22px 0;
+  /* margin: 22px 0; */
 }
 
 .food-item-title {
@@ -106,18 +108,21 @@ body {
 }
 
 .img-food-big {
-  float: left;
-  margin: 6px 7px 14px 16px;
+  display: inline-block;
+  /* float: left; */
+  /* margin: 6px 7px 14px 16px; */
 }
 
 .img-food-kfc {
-  float: left;
-  margin: 16px 7px 17px 16px;
+  display: inline-block;
+  /* float: left; */
+  /* margin: 16px 7px 17px 16px; */
 }
 
 .img-food-fish {
-  float: left;
-  margin: 18px 7px 14px 10px;
+  display: inline-block;
+  /* float: left;
+  margin: 18px 7px 14px 10px; */
 }
 
 .menu-item-food:hover {
