@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+.black-box {
+  border: 2px solid red;
+  width: 512px;
+  height: 512px;
+  background-color: black;
+}
