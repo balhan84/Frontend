@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: IBM Plex Sans, sans-serif; */
+}
+
+.page-with-cards {
+  width: 1960px;
+  margin: 100px auto;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.title-page {
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 80px;
+  color: #2d3640;
+  padding: 10px;
+  margin: 142px 575px 10px 350px;
+}
+
+.part-title-page {
+  font-weight: 400;
+  line-height: 80px;
+  color: #2d3640;
+}
+
+.info-page {
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #2b292d;
+  padding: 10px;
+  margin: 0 875px 50px 350px;
+}
+
+.section-cards {
+  display: inline-block;
+}
+
+.card-first {
+  display: inline-block;
+  width: 295px;
+  height: 470px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0 10px 128px 350px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.img-card-first {
+  margin: 56px auto 34px;
+}
+
+.title-card-first {
+  font-family: Catamaran, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #2d3640;
+  /* margin: 0 auto px; */
+}
+
+.info-card-first {
+  font-family: Catamaran, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #4b4f52;
+  margin: 0 auto 30px;
+}
+
+.logo-card-first {
+  border-radius: 50%;
+  padding: 14px 10px 9px 10px;
+  background-color: #41b883;
+  margin: 0 auto 122px;
+}
+
+.second {
+  margin: 0 10px 128px 10px;
+}
+
+.logo-card-second {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto 122px;
+}
+
+.angular {
+  background-color: #34474f;
+  padding: 9px 10px;
+}
+
+.flutter {
+  background-color: #202124;
+  padding: 8px 10px 8px;
+}
+
+.react {
+  background-color: #61dafb;
+  padding: 9px 10px;
+}
+
+.third {
+  margin: 0 10px 128px 10px;
+}
+
+.logo-card-third {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto 122px;
+}
+
+.java {
+  background-color: #d63033;
+  padding: 5px 10px;
+}
+
+.react2 {
+  background-color: #0aa9d7;
+  padding: 9px 10px;
+}
+
+.fourth {
+  margin: 0 10px 128px 10px;
+}
+
+.logo-card-fourth {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto 122px;
+}
+
+.htmllogo {
+  background-color: #e44e25;
+  padding: 5px 10px;
+}
+
+.csslogo {
+  background-color: #1073bb;
+  padding: 4px 10px;
+}
