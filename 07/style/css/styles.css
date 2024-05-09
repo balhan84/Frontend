@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  /* font-family: IBM Plex Sans, sans-serif; */
-}
-
 .page-with-cards {
   width: 1960px;
   margin: 100px auto;
@@ -64,7 +60,6 @@ body {
   font-weight: 700;
   line-height: 30px;
   color: #2d3640;
-  /* margin: 0 auto px; */
 }
 
 .info-card-first {
