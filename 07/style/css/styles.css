@@ -2,11 +2,20 @@
   box-sizing: border-box;
 }
 
-.page-with-cards {
-  width: 1960px;
-  margin: 100px auto;
+body {
   background-color: #f2f2f2;
-  padding: 10px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.page-with-cards {
+  width: 1243px;
+  margin: 0 auto;
+  padding: 142px 0 128px;
 }
 
 .title-page {
@@ -15,8 +24,7 @@
   font-weight: 600;
   line-height: 80px;
   color: #2d3640;
-  padding: 10px;
-  margin: 142px 575px 10px 350px;
+  margin: 0 auto;
 }
 
 .part-title-page {
@@ -26,32 +34,35 @@
 }
 
 .info-page {
+  width: 695px;
   font-family: IBM Plex Sans, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 40px;
   color: #2b292d;
-  padding: 10px;
-  margin: 0 875px 50px 350px;
+  margin-bottom: 50px;
 }
 
-.section-cards {
-  display: inline-block;
+.user-card {
+  float: left;
+  margin-right: 20px;
 }
 
 .card-first {
-  display: inline-block;
   width: 295px;
-  height: 470px;
   background-color: #ffffff;
-  padding: 10px;
-  margin: 0 10px 128px 350px;
+  padding: 58px 0 122px;
   border-radius: 20px;
   text-align: center;
+  overflow: hidden;
+}
+
+.user-card:last-child:last-child {
+  margin-right: 0;
 }
 
 .img-card-first {
-  margin: 56px auto 34px;
+  margin: 0 auto;
 }
 
 .title-card-first {
@@ -71,22 +82,33 @@
   margin: 0 auto 30px;
 }
 
-.logo-card-first {
-  border-radius: 50%;
-  padding: 14px 10px 9px 10px;
-  background-color: #41b883;
-  margin: 0 auto 122px;
+.logo {
+  text-align: center;
+  font-size: 0;
 }
 
-.second {
-  margin: 0 10px 128px 10px;
+.logo-card-first {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 14px 10px 9px 10px;
+  background-color: #41b883;
+  margin-right: 15px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.logo-card {
+  width: 30px;
+  height: 27px;
 }
 
 .logo-card-second {
   width: 50px;
   height: auto;
   border-radius: 50%;
-  margin: 0 auto 122px;
+  margin-right: 15px;
 }
 
 .angular {
@@ -102,17 +124,14 @@
 .react {
   background-color: #61dafb;
   padding: 9px 10px;
-}
-
-.third {
-  margin: 0 10px 128px 10px;
+  margin-right: 0;
 }
 
 .logo-card-third {
   width: 50px;
   height: auto;
   border-radius: 50%;
-  margin: 0 auto 122px;
+  margin-right: 15px;
 }
 
 .java {
@@ -123,25 +142,31 @@
 .react2 {
   background-color: #0aa9d7;
   padding: 9px 10px;
-}
-
-.fourth {
-  margin: 0 10px 128px 10px;
+  margin-right: 0;
 }
 
 .logo-card-fourth {
   width: 50px;
-  height: auto;
+  height: 50px;
   border-radius: 50%;
-  margin: 0 auto 122px;
+  margin-right: 15px;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
 }
 
 .htmllogo {
   background-color: #e44e25;
-  padding: 5px 10px;
+  padding: 10px 10px;
 }
 
 .csslogo {
   background-color: #1073bb;
-  padding: 4px 10px;
+  padding: 10px 10px;
+  margin-right: 0;
+}
+
+.img-logo {
+  width: 20px;
+  height: 28px;
 }
