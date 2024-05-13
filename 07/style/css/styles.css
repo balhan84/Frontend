@@ -13,7 +13,7 @@ body {
 }
 
 .page-with-cards {
-  width: 1243px;
+  max-width: 1243px;
   margin: 0 auto;
   padding: 142px 0 128px;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 .info-page {
-  width: 695px;
+  max-width: 695px;
   font-family: IBM Plex Sans, sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -46,10 +46,13 @@ body {
 .user-card {
   float: left;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .card-first {
-  width: 295px;
+  max-width: 295px;
+  min-width: 200px;
+  width: 100%;
   background-color: #ffffff;
   padding: 58px 0 122px;
   border-radius: 20px;
@@ -62,6 +65,8 @@ body {
 }
 
 .img-card-first {
+  max-width: 114px;
+  max-height: 114px;
   margin: 0 auto;
 }
 
@@ -100,8 +105,7 @@ body {
 }
 
 .logo-card {
-  width: 30px;
-  height: 27px;
+  width: 100%;
 }
 
 .logo-card-second {
