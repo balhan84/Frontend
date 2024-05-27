@@ -15,45 +15,84 @@
   </head>
   <body>
     <header>
-      <a href="./style/images/netflix.png">Logo</a>
-      <a href="Friday July 8th">date</a>
-      <input type="text" />
-      <img src="./style/images/fe_search.svg" alt="search" />
-      <img src="./style/images/avatar.png" alt="avatar" />
+      <div class="logo-date">
+        <div class="logo-wrapper"><a class="logo" href="#">Netflix</a></div>
+        <a class="date" href="#">Friday July 8th</a>
+      </div>
+      <div class="search-avatar">
+        <input class="search" type="text" />
+        <!-- <img src="./style/images/fe_search.svg" alt="search" /> -->
+        <img src="./style/images/avatar.png" alt="avatar" />
+      </div>
     </header>
     <main>
       <section>
-        <p>Drama</p>
-        <p>Thriller</p>
-        <p>Supernatural</p>
-        <h2>Stranger Things</h2>
-        <p>
-          2019 DIRECTOR: <span>Shawn Levy</span> seasons:
-          <span>3 (5 Episodes)</span>
+        <div class="genres">
+          <p class="genre">Drama</p>
+          <p class="genre">Thriller</p>
+          <p class="genre">Supernatural</p>
+        </div>
+        <h2 class="name-movie">Stranger Things</h2>
+        <p class="info-movie">
+          <span class="line-after">2019</span> DIRECTOR:
+          <span class="part-info-movie line-after">Shawn Levy</span> seasons:
+          <span class="part-info-movie">3 (5 Episodes)</span>
         </p>
-        <p>
+        <p class="plot-movie">
           In 1980s Indiana, a group of young friends witness supernatural forces
           and secret government exploits. As they search for answers, the
           children unravel a series of extraordinary mysteries.
         </p>
-        <img src="./style/images/Stars5.svg" alt="stars" />
-        <button>
-          STREAM NOW
-          <img src="./style/images/play.png" alt="play" />
-        </button>
-        <button>ALL EPISODES</button>
+        <img class="rating" src="./style/images/Stars5.svg" alt="stars" />
+        <div class="buttons">
+          <button class="stream-btn">
+            <span class="name-btn">STREAM NOW</span>
+            <img class="play-btn" src="./style/images/play.png" alt="play" />
+          </button>
+          <button class="allepisod-btn">
+            <span class="name-btn">ALL EPISODES</span>
+          </button>
+        </div>
       </section>
-      <section>
-        <h3>POPULAR THIS WEEK</h3>
-        <img src="./style/images/Group1.png" alt="arrow1" />
-        <img src="./style/images/Group2.png" alt="arrow2" />
-        <img src="./style/images/Rectangle6.png" alt="photo1" />
-        <img src="./style/images/Rectangle7.png" alt="photo2" />
-        <img src="./style/images/Rectangle8.png" alt="photo3" />
-        <img src="./style/images/Rectangle9.png" alt="photo4" />
-        <img src="./style/images/Rectangle11.png" alt="photo5" />
-        <div></div>
-        <div>16+</div>
+      <section class="section-list">
+        <div class="section-popular">
+          <h3 class="title-section">POPULAR THIS WEEK</h3>
+          <div class="arrows">
+            <img class="arrow1" src="./style/images/Group2.png" alt="arrow2" />
+            <img class="arrow2" src="./style/images/Group1.png" alt="arrow1" />
+          </div>
+        </div>
+        <div class="section-list-movies">
+          <img
+            class="list-movies"
+            src="./style/images/Rectangle6.png"
+            alt="photo1"
+          />
+          <img
+            class="list-movies"
+            src="./style/images/Rectangle7.png"
+            alt="photo2"
+          />
+          <img
+            class="list-movies"
+            src="./style/images/Rectangle8.png"
+            alt="photo3"
+          />
+          <img
+            class="list-movies"
+            src="./style/images/Rectangle9.png"
+            alt="photo4"
+          />
+          <img
+            class="list-movies"
+            src="./style/images/Rectangle11.png"
+            alt="photo5"
+          />
+        </div>
+        <div class="blocks">
+          <div class="red-block"></div>
+          <div class="grey-block"><span class="info-grey-block">16+</span></div>
+        </div>
       </section>
     </main>
   </body>
